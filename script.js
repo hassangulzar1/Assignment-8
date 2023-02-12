@@ -51,37 +51,26 @@ let c = ((f - 32) * 5) / 9;
 console.log("divide two number:  " + c);
 
 // !Program No 12 adding
-
-let sum1 = prompt("type a first number to add");
-let number1 = parseInt(sum1);
-let sum2 = prompt("type a second number to add in 1st value");
-let number2 = parseInt(sum2);
-console.log(`${number1} + ${number2} = ${number1 + number2}`);
+let sum1 = parseInt(prompt("type a first number to add"));
+let sum2 = parseInt(prompt("type a second number to add in 1st value"));
+console.log(`${sum1} + ${sum2} = ${sum1 + sum2}`);
 
 // !Program No 13 difference
-let diff1 = prompt("type a  first number for diff");
-let numDiff1 = parseInt(diff1);
-let diff2 = prompt("type a second number from value 1 diff");
-let numDiff2 = parseInt(diff2);
-console.log(`${numDiff1} - ${numDiff2} = ${numDiff1 - numDiff2}`);
+let diff1 = parseInt(prompt("type a  first number for diff"));
+let diff2 = parseInt(prompt("type a second number from value 1 diff"));
+console.log(`${diff1} - ${diff2} = ${diff1 - diff2}`);
 
 // !Program No 14 product
-let product1 = prompt("type a first number for product");
-let numProduct1 = parseInt(product1);
-let product2 = prompt("type a second number from value 1 product");
-let numProduct2 = parseInt(product2);
-console.log(`${numProduct1} * ${numProduct2} = ${numProduct1 * numProduct2}`);
+let product1 = parseInt(prompt("type a first number for product"));
+let product2 = parseInt(prompt("type a second number from value 1 product"));
+console.log(`${product1} * ${product2} = ${product1 * product2}`);
 
 // !Program No 15 quotient
-let quotient1 = prompt("type first  number");
-let numQuo1 = parseInt(quotient1);
-let quotient2 = prompt("type a number to get a quotient from value 1");
-let numQuo2 = parseInt(quotient2);
-console.log(`${numQuo1} / ${numQuo2} = ${numQuo1 / numQuo2}`);
+let quotient1 = parseInt(prompt("type first  number"));
+let quotient2 = parseInt(prompt("type a second number to a quotient from 1"));
+console.log(`${quotient1} / ${quotient2} = ${quotient1 / quotient2}`);
 
 //! Program No 16 remainder
-let remainder1 = prompt("type a first number");
-let numRem1 = parseInt(remainder1);
-let remainder2 = prompt("type a second number");
-let numRem2 = parseInt(remainder2);
-console.log(`${numRem1} % ${numRem2} = ${numRem1 % numRem2}`);
+let remainder1 = parseInt(prompt("type a first number"));
+let remainder2 = parseInt(prompt("type a second number"));
+console.log(`${remainder1} % ${remainder2} = ${remainder1 % remainder2}`);
