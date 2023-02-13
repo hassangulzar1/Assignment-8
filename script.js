@@ -1,7 +1,7 @@
 // !Program No 1
 let namee = "Umair Azmat";
 let admin = namee;
-// alert(admin);
+alert(`Name ${admin}`);
 
 // !Program No 2
 let earth;
@@ -17,7 +17,8 @@ let favNumber = "1";
 
 // !Program No 6
 function myFavs() {
-  console.log("My name is Hassan MERN stack developer!");
+  console.log(favDrink);
+  console.log(favNumber);
 }
 myFavs();
 
